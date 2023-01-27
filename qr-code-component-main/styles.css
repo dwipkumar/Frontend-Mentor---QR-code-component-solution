@@ -1,0 +1,122 @@
+/* ---------------------------------------- */
+/*               VARIABILES                 */
+/* ---------------------------------------- */
+
+:root{
+
+--color-white:hsl(0, 0%, 100%);
+--color-light-gray:hsl(212, 45%, 89%);
+--color-blue:hsl(220, 15%, 55%);
+--color-Dark-blue: hsl(218, 44%, 22%);
+
+
+}
+
+   
+/* ---------------------------------------- */
+/*                 FONTS                    */
+/* ---------------------------------------- */
+
+@font-face {
+
+   font-family: outfit;
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url(./fonts/Outfit-Regular.ttf) format("ttf");
+
+}
+
+
+@font-face {
+
+   font-family: outfit;
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+   src: url(./fonts/Outfit-Bold.ttf) format("ttf");
+
+}
+
+/* ---------------------------------------- */
+/*                 BASE STYLES              */
+/* ---------------------------------------- */
+
+*,
+*::before
+*::after{
+   box-sizing: border-box;
+}
+
+body{
+   margin:unset;
+   -webkit-text-size-adjust: none;
+   text-size-adjust:none;
+   background-color: var(--color-light-gray);
+   font-family:outfit, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 15px;
+   min-height: 100vh;
+   display: grid;
+   place-items: center;
+}
+
+img{
+
+   max-width: 100%;
+   height: auto;
+}
+
+/* ---------------------------------------- */
+/*                 QR CARD STYLE            */
+/* ---------------------------------------- */
+
+
+main{
+
+   background-color: var(--color-white);
+   padding-top: 0.75rem;
+   padding-bottom: 0.75rem;
+   padding-left: 0.188rem;
+   padding-right: 0.188rem;
+
+   max-width: 320px;
+   border-radius: 1.35rem;
+   text-align: center;
+   margin: 1.075rem;
+   box-shadow: 0 1.6rem 1.6rem hsla(0, 0%, 0%, 0.05);
+   
+}
+
+img{
+  border-radius: 0.67rem;
+
+}
+
+h1{
+
+   font-size: 1.375rem;
+   line-height: 1.275;
+   margin-top: 1.1rem;
+   color: var(--color-Dark-blue);
+   padding: 0 0.75rem;
+
+}
+
+p{
+   color: var(--color-blue);
+   line-height: 1.3;
+   margin: 1.075em;
+   padding: 0 0.75rem 0.75rem;
+
+
+
+}
+
+div{
+
+font-size:small;
+
+
+
+
+}
